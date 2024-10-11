@@ -18,8 +18,8 @@ jobs:
           - os: ubuntu
             version: 24.04
             name: noble
-          - os: kali
-            version: 2024.3
+            # - os: kali
+            #   version: 2024.3
     # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
     permissions:
       contents: read
