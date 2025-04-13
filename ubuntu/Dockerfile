@@ -3,4 +3,4 @@ ARG NAME="noble"
 ARG OS="ubuntu"
 
 FROM scratch
-ADD --chown=107:107 https://cloud-images.ubuntu.com/${NAME}/current/${NAME}-server-cloudimg-amd64.img /disk/disk.qcow2
+ADD --chown=107:107 https://cloud-images.ubuntu.com/$NAME/current/$NAME-server-cloudimg-amd64.img /disk/disk.qcow2
