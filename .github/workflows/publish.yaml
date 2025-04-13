@@ -18,6 +18,9 @@ jobs:
           - os: ubuntu
             version: 24.04
             name: noble
+          - os: debian
+            version: 12
+            name: bookworm
             # - os: kali
             #   version: 2024.3
     # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
